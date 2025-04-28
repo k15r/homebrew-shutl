@@ -6,6 +6,13 @@ class Shutl < Formula
   license "MIT"
   head "https://github.com/k15r/shutl.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/k15r/homebrew-shutl/releases/download/shutl-0.0.5"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "2c840321854caca953c49d496373e94f3842dcb2cda2fe30ba7085ed53a87c15"
+    sha256 cellar: :any_skip_relocation, ventura:       "24eb0fc33b9d3e359c76dfc0f25ad41f6226a45e8143a0480422419d06bb5482"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "dd99a032e3f55e978d8a9186887503317ae4d51e7d7db7c6c48130ee0659e88a"
+  end
+
   depends_on "rust" => :build
 
   def install
