@@ -2,15 +2,15 @@
 
 ## How do I install these formulae?
 
-`brew install k15r/shutl/<formula>`
+`brew install k15r/shutl/shutl`
 
-Or `brew tap k15r/shutl` and then `brew install <formula>`.
+Or `brew tap k15r/shutl` and then `brew install shutl`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "k15r/shutl"
-brew "<formula>"
+brew "shutl"
 ```
 
 ## Documentation
