@@ -7,10 +7,9 @@ class Shutl < Formula
   head "https://github.com/k15r/shutl.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/k15r/homebrew-shutl/releases/download/shutl-0.2.0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "82540405d91db179366a6ceff378cc8bb164e0d8ad073c6c4dbc9cd4cfe81433"
-    sha256 cellar: :any_skip_relocation, ventura:       "e83d13389517c5428db856eb70008b4893c1b6dd04b7f90c57dd611f66829bfd"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "052d8975483c5e90767b89b081429ff0d4ca79213e505f4794dc6864f12dc3e4"
+    root_url "https://github.com/k15r/homebrew-shutl/releases/download/shutl-0.3.0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "633cc0d99cf706cc07758e8d45df2ed953cb2cd608f349b838ab5639cb8bfd72"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "17900a9fbebad3fdc95e77bc823c74b8bd14615e70fd2a1487785ccd63ab9003"
   end
 
   depends_on "rust" => :build
