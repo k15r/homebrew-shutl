@@ -1,8 +1,8 @@
 class Shutl < Formula
   desc "CLI tool for organizing, managing, and executing scripts as commands"
   homepage "https://github.com/k15r/shutl"
-  url "https://github.com/k15r/shutl/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "44c63cdba51d9969aa3c14158ae303bee7a9fb6f8128e2f4096c722710bf84a2"
+  url "https://github.com/k15r/shutl/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "78e08a6dddf358c0fb0fcbfee27594d3a87d8b549521627c25fb4ad68a12a5df"
   license "MIT"
   head "https://github.com/k15r/shutl.git", branch: "main"
 
